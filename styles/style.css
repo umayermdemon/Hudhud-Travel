@@ -14,9 +14,10 @@
 }
 /* header related styles */
 .header {
-  max-width: 1400px;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 50px auto;
 }
 .header-title-container {
@@ -38,7 +39,7 @@
 }
 
 nav ul {
-  display: flex;
+  display:flex;
   gap: 50px;
 }
 
@@ -52,18 +53,111 @@ nav li a {
   font-size: 1.2rem;
   font-weight: 400;
 }
-nav li:first-child a{
+nav li:first-child a {
   color: var(--secondary-color);
 }
 
+/* main */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+/* banner section style */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group 13 (1) (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.banner-container {
+  text-align: center;
+  padding-top: 105px;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
 
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  width: 600px;
+  margin: 5px auto;
+}
+
+form {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  gap: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+form input,
+select {
+  border-radius: 8px;
+  background: #fff;
+  width: 170px;
+  height: 45px;
+  border: 0;
+}
+.find {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background: var(--secondary-color);
+  border-radius: 8px;
+  width: 120px;
+  height: 18px;
+  border: 0;
+  padding: 16px;
+  color: #fff;
+}
 
 /* small device */
 
 @media screen and (max-width: 600px) {
-  .header{
+  .header {
     flex-direction: column;
     margin-left: 20px;
+  }
+  nav ul{
+    display: none;
+  }
+  form{
+    flex-direction: column;
+    margin-top: 20px;
+    width: 200px;
+
+  }
+  .banner{
+    background-position: center;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .banner-container{
+    padding-top: 50px;
+  }
+  .banner-title{
+    font-size: 22px;
+  }
+  .banner-description{
+    font-size: 14px;
+    width: 350px;
   }
 }
