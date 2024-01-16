@@ -195,7 +195,7 @@ select {
   gap: 15px;
 }
 
-/* .context{
+.context{
   color: #fff;
   font-size: 1.5rem;
   font-weight: 800;
@@ -204,7 +204,12 @@ select {
 .maldives {
   top: 1740px;
   left: 500px;
-} */
+}
+
+.indonesia{
+  top: 1740px;
+  right: 500px;
+}
 .destination-img .one,
 .two,
 .four,
@@ -322,5 +327,18 @@ select {
     width: 335px;
     height: 176px;
     margin-left: 20px;
+  }
+
+  .context{
+    font-size: 1rem;
+  }
+
+  .maldives {
+    top: 1920px;
+    left: 130px;
+  }
+  .indonesia {
+    top: 2100px;
+    right: 130px;
   }
 }
