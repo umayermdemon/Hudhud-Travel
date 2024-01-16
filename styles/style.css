@@ -21,7 +21,7 @@
 }
 
 .section {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .section-content {
   text-align: center;
@@ -220,26 +220,26 @@ select {
 }
 
 .srilanka {
-  top: 2120px;
+  top: 2080px;
   left: 340px;
 }
 
 .america {
-  top: 2120px;
+  top: 2080px;
   left: 850px;
 }
 
 .kashmir {
-  top: 2120px;
+  top: 2080px;
   right: 350px;
 }
 
 .bangladesh {
-  top: 2540px;
+  top: 2500px;
   left: 500px;
 }
 .bandarban {
-  top: 2540px;
+  top: 2500px;
   right: 500px;
 }
 .destination-img .one,
@@ -255,14 +255,18 @@ select {
 }
 
 /* choose section styles */
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+
+.first-row{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.second-row .card{
+  margin: 0 auto;
 }
 .card {
-  /* width: 573px; */
-  height: 250px;
+  width: 650px;
+  height: 300px;
   border-radius: 16px;
   padding: 30px;
 }
@@ -362,7 +366,7 @@ form input[type="button"] {
   transform: rotate(-19.628deg);
   padding: 15px;
   position: absolute;
-  top: 4000px;
+  top: 4015px;
   right: 238px;
 }
 
@@ -442,8 +446,13 @@ footer {
   }
   form,
   .popular,
-  .newslatter {
+  .newslatter, .first-row {
     flex-direction: column;
+  }
+
+  .first-row{
+    gap: 15px ;
+    margin-bottom: 15px;
   }
 
   .header {
@@ -543,7 +552,6 @@ footer {
 
   .destination-img div img {
     width: 340px;
-    /* width: 95%; */
     height: 180px;
     margin-left: 17px;
   }
@@ -561,11 +569,11 @@ footer {
     left: 130px;
   }
   .indonesia {
-    top: 2280px;
+    top: 2265px;
     right: 130px;
   }
   .srilanka {
-    top: 2480px;
+    top: 2465px;
     left: 140px;
   }
   .america {
@@ -578,16 +586,12 @@ footer {
   }
 
   .bangladesh {
-    top: 3050px;
+    top: 3040px;
     left: 120px;
   }
   .bandarban {
-    top: 3250px;
+    top: 3240px;
     left: 120px;
-  }
-
-  .card-container {
-    grid-template-columns: 1fr;
   }
 
   .card {
@@ -633,7 +637,6 @@ footer {
   .news-input input {
     width: 270px;
     height: 50px;
-    /* align-items: center; */
   }
 
   form input[type="button"] {
@@ -650,8 +653,8 @@ footer {
     border-radius: 12px;
     width: 220px;
     height: 60px;
-    top: 4810px;
-    right: 19px;
+    top: 4790px;
+    right: 17px;
   }
 
   .save-up p {
