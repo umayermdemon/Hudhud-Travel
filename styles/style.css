@@ -383,9 +383,26 @@ form input[type="button"] {
   text-align: center;
 }
 
+/* map styles */
+
+.map-content{
+  margin-top: 70px;
+}
+.map-title{
+  text-align: center;
+}
+.map-description{
+  text-align: center;
+}
+
+.main-map iframe{
+  width: 100%;
+  border-radius: 15px;
+}
+
 /* footer dtyles */
 footer {
-  margin-top: 100px;
+  margin-top: 70px;
   height: 400px;
   background: rgba(19, 19, 24, 0.05);
 }
@@ -665,8 +682,17 @@ footer {
     font-size: 20px;
   }
 
+  .map-content{
+    margin-top: 40px;
+  }
+  
+  .main-map iframe{
+    width: 95%;
+    margin-left: 10px;
+  }
   footer{
     height: 350px;
+    margin-top: 40px;
   }
 
   .footer-container {
@@ -680,5 +706,8 @@ footer {
   .footer-hr {
     width: 300px;
     margin: 20px auto;
+  }
+  .footer-bottom p{
+    font-size: 13px;
   }
 }
