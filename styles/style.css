@@ -320,13 +320,17 @@ select {
 
   .destination-img {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 3px;
   }
 
   .destination-img div img {
-    width: 335px;
-    height: 176px;
-    margin-left: 20px;
+    /* width: 340px; */
+    width: 95%;
+    height: 180px;
+    margin-left: 9px;
+  }
+  .destination-img .three, .five{
+    width: 100%;
   }
 
   .context{
