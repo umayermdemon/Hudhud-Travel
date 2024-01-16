@@ -70,6 +70,11 @@
 .header-title span {
   color: var(--secondary-color);
 }
+.humbarger{
+  width: 25px;
+  height: 25px;
+  display: none;
+}
 
 nav ul {
   display: flex;
@@ -205,27 +210,27 @@ select {
   position: absolute;
 }
 .maldives {
-  top: 1720px;
+  top: 1680px;
   left: 500px;
 }
 
 .indonesia {
-  top: 1720px;
+  top: 1680px;
   right: 500px;
 }
 
 .srilanka {
-  top: 2140px;
+  top: 2120px;
   left: 340px;
 }
 
 .america {
-  top: 2140px;
+  top: 2120px;
   left: 850px;
 }
 
 .kashmir {
-  top: 2140px;
+  top: 2120px;
   right: 350px;
 }
 
@@ -267,9 +272,7 @@ select {
   font-weight: 800;
   margin: 30px 0;
 }
-.item3 {
-  justify-content: center;
-}
+
 
 .card-description {
   color: #5a5a5d;
@@ -437,8 +440,6 @@ footer {
   .section-description {
     font-size: 14px;
   }
-
-  .header,
   form,
   .popular,
   .newslatter {
@@ -452,8 +453,21 @@ footer {
   .header-title {
     font-size: 22px;
   }
+  .header-title-container {
+    align-items: center;
+  }
+  .header-title-container img {
+    width: 30px;
+    height: 30px;
+  }
+  .humbarger{
+    display: block;
+    margin-right: 20px;
+  }
+  
   nav ul {
     display: none;
+
   }
   form {
     margin-top: 20px;
@@ -464,6 +478,7 @@ footer {
     width: 95%;
     margin-left: 10px;
     margin-right: 10px;
+    z-index: 999;
   }
   .banner-container {
     padding-top: 50px;
@@ -542,32 +557,32 @@ footer {
   }
 
   .maldives {
-    top: 1920px;
+    top: 2080px;
     left: 130px;
   }
   .indonesia {
-    top: 2120px;
+    top: 2280px;
     right: 130px;
   }
   .srilanka {
-    top: 2310px;
+    top: 2480px;
     left: 140px;
   }
   .america {
-    top: 2510px;
+    top: 2655px;
     left: 110px;
   }
   .kashmir {
-    top: 2700px;
+    top: 2855px;
     left: 140px;
   }
 
   .bangladesh {
-    top: 2890px;
+    top: 3050px;
     left: 120px;
   }
   .bandarban {
-    top: 3080px;
+    top: 3250px;
     left: 120px;
   }
 
@@ -635,7 +650,7 @@ footer {
     border-radius: 12px;
     width: 220px;
     height: 60px;
-    top: 4820px;
+    top: 4810px;
     right: 19px;
   }
 
